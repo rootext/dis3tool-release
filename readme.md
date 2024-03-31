@@ -1,4 +1,4 @@
-# Disciples III Converter Tool
+# Disciples III Tool
 
 dis3tool is utility tool to convert Disciples III texture, geomtry and animation resources.
 
