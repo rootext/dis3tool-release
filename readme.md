@@ -8,11 +8,11 @@ dis3tool is utility tool to convert Disciples III texture, geomtry and animation
 
 ## Features
 * Convert between DIII texture `*.t` and DDS texture `*.dds `
-* Convert between DIII geometry & animation `*.g` & `*.a` and glTF format `*.gltf` & `*.glb`
+* Convert between DIII static geometry `*.g` and glTF format `*.gltf`
+* Convert between DIII scene `*.scene` and glTF format `*.gltf`
 * Extract `*.vdpack` and `*.vdpatch` files
 * Bulk conversion
 * Scale DIII geometry
-* Initial `*.scene` support
 
 ## Supported versions
 * [Disciples III: Renaissance](https://en.wikipedia.org/wiki/Disciples_III:_Renaissance#Renaissance)
