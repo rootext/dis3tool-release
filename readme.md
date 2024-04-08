@@ -53,14 +53,14 @@ dis3tool is utility tool to convert Disciples III texture, geomtry and animation
 |u32|mipmap||number of mipmaps|
 |u32|width||texture width|
 |u32|height||texture height|
-|u32|-||0 or 1 or 257|
-|u8[]|-|3||
+|u32|-||0 or 1 or 257(once)|
+|u8[]|-|3|0 or 2|
 |u32|-||0 or 2|
 |u32|-||0 or 1|
 |u32|-||0 or 1|
 |u32|frames||number of frames|
 |u32|-||0|
-|u32|signature|1|0x41700000|
+|u32|signature|1|0x41700000 or 0x00000000 or 0x41f00000(once) or 0x3f800000(once)|
 |u32|-||0|
 
 
