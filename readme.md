@@ -28,6 +28,7 @@ dis3tool is utility tool to convert Disciples III texture, geomtry and animation
 |file|
 |u32|count||number of resources|
 |item[]|items|count|resources|
+||
 |item|
 |string|name||file name of resource
 |u32|size||size of resource in bytes|
@@ -45,11 +46,12 @@ dis3tool is utility tool to convert Disciples III texture, geomtry and animation
 |file|
 |header|header||texture metadata|
 |u8[]|data|till eof|texture data|
-|header (59 bytes)|
-|u32|-|||
+||
+|header|||59 bytes|
+|u32|-||1|
 |u32|type||texture type|
 ||||1=R5G6B5<br/> 2=A4R4G4B4<br/> 3=A1R5G5B5<br/> 4=R8G8B8<br/> 5=A8R8G8B8<br/> 6=DXT1<br/> 7=DXT3<br/> 8=DXT5|
-|u32|-|||
+|u32|cubemap||is cubemap|
 |u32|mipmap||number of mipmaps|
 |u32|width||texture width|
 |u32|height||texture height|
@@ -63,7 +65,7 @@ dis3tool is utility tool to convert Disciples III texture, geomtry and animation
 |u32|-||0 or 1|
 |u32|frames||number of frames|
 |u32|-||0|
-|f32|-||15.0 or 0.0 or 30.0(once) or 1.0(once)|
+|f32|-||fps 15.0/0.0/30.0(once)/1.0(once)|
 |u32|-||0|
 
 
