@@ -25,11 +25,15 @@ pass: dis3tool-1.0.1-2024
 
 ### `*.vdpack` and `*.vdpatch`
 
+A simple container to pack set of files to one file.
+Header contains number of files, file name, size, flags and offset in pack with actual file content.
+
 |type|name|repeat|description|
 |---|---|---|---|
-|file|
+|header|
 |u32|count||number of resources|
 |item[]|items|count|resources|
+|u8[]|resources|count|content of each resource(file)|
 ||
 |item|
 |string|name||file name of resource
@@ -43,9 +47,10 @@ pass: dis3tool-1.0.1-2024
 
 ### `*.t`
 
+Just .dds format with custom (badly designed) header.
+
 |type|name|repeat|description|
 |---|---|---|---|
-|file|
 |header|header||texture metadata|
 |u8[]|data|till eof|texture data|
 ||
@@ -69,8 +74,6 @@ pass: dis3tool-1.0.1-2024
 |u32|-||0|
 |f32|-||fps 15.0/0.0/30.0(once)/1.0(once)|
 |u32|-||0|
-
-
 
  _copyright 2024 root.ext@gmail.com_
 
