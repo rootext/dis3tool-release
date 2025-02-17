@@ -1,8 +1,11 @@
 # Disciples III Tool
 
-dis3tool is utility tool to convert Disciples III texture, geomtry and animation resources.
+dis3tool is utility tool to convert Disciples III texture, geomtry, animation and camera resources.
 
 ## Download
+
+[version 1.1](https://github.com/rootext/dis3tool-release/raw/refs/heads/main/dis3tool-1.1-2025.7z)
+pass: dis3tool-1.1-2025
 
 [version 1.0.1](https://github.com/rootext/dis3tool-release/raw/refs/heads/main/dis3tool-1.0.1-2024.7z)
 pass: dis3tool-1.0.1-2024
@@ -10,8 +13,9 @@ pass: dis3tool-1.0.1-2024
 
 ## Features
 * Convert between DIII texture `*.t` and DDS texture `*.dds `
-* Convert between DIII static geometry `*.g` and glTF format `*.gltf`
+* Convert between DIII geometry `*.g` and glTF format `*.gltf`
 * Convert between DIII scene `*.scene` and glTF format `*.gltf`
+* Convert between DIII camera `*.camera` and glTF format `*.gltf`
 * Extract `*.vdpack` and `*.vdpatch` files
 * Bulk conversion
 * Scale DIII geometry
