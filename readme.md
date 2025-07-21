@@ -4,8 +4,8 @@ dis3tool is utility tool to convert Disciples III texture, geomtry, animation an
 
 ## Download
 
-[version 1.1.1](https://github.com/rootext/dis3tool-release/raw/refs/heads/main/dis3tool-1.1.1-2025.7z)
-pass: dis3tool-1.1.1-2025
+[version 1.1.2](https://github.com/rootext/dis3tool-release/raw/refs/heads/main/dis3tool-1.1.2-2025.7z)
+pass: dis3tool-1.1.2-2025
 
 [version 1.0.1](https://github.com/rootext/dis3tool-release/raw/refs/heads/main/dis3tool-1.0.1-2024.7z)
 pass: dis3tool-1.0.1-2024
